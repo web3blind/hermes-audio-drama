@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.wav
+.DS_Store
+venv/
+.env
+build/tmp/
+build/lines/
+build/scenes/
+!build/final_mix.mp3
+!build/render_manifest.json

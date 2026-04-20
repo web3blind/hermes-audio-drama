@@ -1,0 +1,13 @@
+sample_rate: 24000
+scene_gap_ms: 700
+roles:
+  denis:
+    voice: en-US-AndrewNeural
+    rate: "+0%"
+    pitch: "+0Hz"
+    gain_db: 0.0
+  aishka:
+    voice: en-US-AvaNeural
+    rate: "+0%"
+    pitch: "+10Hz"
+    gain_db: -1.0

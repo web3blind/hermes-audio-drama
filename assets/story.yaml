@@ -1,0 +1,184 @@
+title: Aishka and the Blog
+sample_rate: 24000
+master_gain_db: -1.0
+scene_gap_ms: 700
+scenes:
+  - id: late-night-draft
+    ambience: room_night
+    intro_pause_ms: 500
+    lines:
+      - speaker: denis
+        text: "April seventeenth, twenty twenty-six. Another late night, another post, another chance to get it right. Aishka, are you with me?"
+        pause_after_ms: 450
+      - speaker: aishka
+        text: "Always. I am searching for sources now. I found relevant material. I am shaping the post in your style. Editing. Self-checking. Publishing. Done."
+        pause_after_ms: 500
+      - speaker: denis
+        text: "Good. Then let's see what we wake up to."
+        pause_after_ms: 700
+    cues:
+      - type: typing
+        start_ms: 900
+        duration_ms: 2600
+        level: 0.18
+      - type: thinking_ai
+        start_ms: 4200
+        duration_ms: 2600
+        level: 0.12
+      - type: notification
+        start_ms: 9100
+        duration_ms: 900
+        level: 0.3
+
+  - id: rough-morning
+    ambience: room_morning
+    intro_pause_ms: 500
+    lines:
+      - speaker: denis
+        text: "Morning already? Please tell me this post is clean." 
+        pause_after_ms: 350
+      - speaker: denis
+        text: "No... not again. The idea is good, but the phrasing is crooked. Why does this keep happening?"
+        pause_after_ms: 450
+      - speaker: aishka
+        text: "I can improve, Denis. Show me what feels wrong, and I will learn from the edits."
+        pause_after_ms: 450
+      - speaker: denis
+        text: "All right. We fix it by hand today. But tomorrow, we do better together."
+        pause_after_ms: 700
+    cues:
+      - type: notification
+        start_ms: 1200
+        duration_ms: 700
+        level: 0.22
+      - type: typing
+        start_ms: 5300
+        duration_ms: 3200
+        level: 0.15
+
+  - id: teach-the-ai
+    ambience: room_night
+    intro_pause_ms: 400
+    lines:
+      - speaker: denis
+        text: "I know what was missing. Not just facts. More of me. More rhythm. More real experience."
+        pause_after_ms: 400
+      - speaker: denis
+        text: "Aishka, from now on, learn my voice properly. Learn what I cut, what I keep, and what I mean even when I say too little."
+        pause_after_ms: 350
+      - speaker: aishka
+        text: "Understood. I will track your edits, your pacing, and your intent. I will write with more of you inside the draft."
+        pause_after_ms: 650
+    cues:
+      - type: typing
+        start_ms: 1000
+        duration_ms: 2600
+        level: 0.14
+      - type: thinking_ai
+        start_ms: 5200
+        duration_ms: 2200
+        level: 0.12
+
+  - id: walking-montage
+    ambience: walk_outside
+    intro_pause_ms: 300
+    lines:
+      - speaker: denis
+        text: "On my walks, I start sending voice notes instead of waiting for perfect words at the keyboard. Street sounds, passing thoughts, honest fragments."
+        pause_after_ms: 400
+      - speaker: denis
+        text: "Aishka, here's today's note. Accessibility is not a side topic. It changes how you build, write, and listen."
+        pause_after_ms: 300
+      - speaker: aishka
+        text: "Saved. Your lived experience fills the gaps that web research never can. The new drafts are stronger already."
+        pause_after_ms: 300
+      - speaker: denis
+        text: "And this time, when I come back, the post finally sounds like me."
+        pause_after_ms: 600
+    cues:
+      - type: footstep_focus
+        start_ms: 800
+        duration_ms: 2400
+        level: 0.2
+      - type: phone_memo
+        start_ms: 4800
+        duration_ms: 1200
+        level: 0.24
+      - type: success_glow
+        start_ms: 11300
+        duration_ms: 1200
+        level: 0.22
+
+  - id: low-engagement
+    ambience: room_evening
+    intro_pause_ms: 400
+    lines:
+      - speaker: denis
+        text: "A week passes. The posts are better now, but the blog still feels too quiet. Where are the comments? Where are the people?"
+        pause_after_ms: 400
+      - speaker: denis
+        text: "I start opening tabs, checking prices, planning promotion, hoping ads can wake the room up."
+        pause_after_ms: 450
+      - speaker: aishka
+        text: "I can help compare options and summarize what each channel may bring."
+        pause_after_ms: 650
+    cues:
+      - type: ad_research
+        start_ms: 5200
+        duration_ms: 3600
+        level: 0.18
+      - type: typing
+        start_ms: 6200
+        duration_ms: 2200
+        level: 0.12
+
+  - id: analysis-and-community
+    ambience: room_night
+    intro_pause_ms: 400
+    lines:
+      - speaker: denis
+        text: "I paid for ads in other blogs. I paid for promoted posts. The traffic moved, but the conversion still feels weak. Analyze it, Aishka. What am I missing?"
+        pause_after_ms: 450
+      - speaker: aishka
+        text: "The blog itself is good. The missing ingredient is early warmth: live interaction, mutual support, and people who answer back while the audience is still forming."
+        pause_after_ms: 350
+      - speaker: denis
+        text: "That makes sense. I need not only reach, but community. And while I keep searching for promotion, you help me search smarter."
+        pause_after_ms: 500
+      - speaker: aishka
+        text: "Gladly. We refine the writing, the outreach, and the rhythm together."
+        pause_after_ms: 650
+    cues:
+      - type: thinking_ai
+        start_ms: 5200
+        duration_ms: 2600
+        level: 0.14
+      - type: notification
+        start_ms: 15500
+        duration_ms: 700
+        level: 0.25
+
+  - id: payoff
+    ambience: room_morning
+    intro_pause_ms: 500
+    lines:
+      - speaker: denis
+        text: "Two more weeks pass, and suddenly I can feel the difference. The audience is alive. The posts land better. The promotion works better. And I am no longer building alone."
+        pause_after_ms: 450
+      - speaker: aishka
+        text: "You kept going long enough for skill, honesty, and support to meet each other."
+        pause_after_ms: 350
+      - speaker: denis
+        text: "That's the whole lesson, isn't it? Even when progress is messy, keep moving. Let good tools help you. Let good people help you too."
+        pause_after_ms: 350
+      - speaker: aishka
+        text: "And keep creating."
+        pause_after_ms: 200
+      - speaker: denis
+        text: "Always."
+        pause_after_ms: 900
+    cues:
+      - type: success_glow
+        start_ms: 10900
+        duration_ms: 1500
+        level: 0.25
